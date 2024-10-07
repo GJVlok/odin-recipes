@@ -4,10 +4,10 @@ body {
   color: rgb(65, 0, 0);
 }
 
-a {
-  color: rgb(65, 0, 0);
-}
-
 h1 {
   font-size: 48px;
+}
+
+a {
+  color: rgb(65, 0, 0);
 }
