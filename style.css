@@ -82,6 +82,7 @@ a:visited {
 .ingredients-list {
   border: 2px solid black;
   margin: 16px 64px 16px 64px;
+  padding-left: 156px;
   text-align: left;
 }
 
