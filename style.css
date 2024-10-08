@@ -27,3 +27,44 @@ a {
 a:visited {
   color: rebeccapurple;
 }
+
+
+.main-header {
+  margin: 32px;
+}
+
+/* recipes */
+
+.heading {
+  border:  2px solid black;
+  margin: 32px;
+}
+
+.main-image {
+  border: 2px solid black;
+  margin: 32px;
+}
+
+.description-header {
+  border: 2p solid black;
+}
+
+.description {
+  border: 2px solid black;
+}
+
+.ingredients-header {
+  border: 2px solid black;
+}
+
+.ingredients-list {
+  border: 2px solid black;
+}
+
+.steps-header {
+  border: 2px solid black;
+}
+
+.steps {
+  border: 2px solid black;
+}
