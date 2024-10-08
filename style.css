@@ -10,14 +10,19 @@
 }
 
 body {
-  text-align: center;
   background-color: antiquewhite;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
   color: rgb(65, 0, 0);
+  margin: 32px 512px 32px 128px;
 }
 
 h1 {
   font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
 }
 
 a {
@@ -28,16 +33,28 @@ a:visited {
   color: rebeccapurple;
 }
 
+/*main page*/
 
 .main-header {
-  margin: 32px;
+  border: 2px solid black;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.recipe-list {
+  border: 2px solid black;
+}
+
+.main-list-item {
+  border: 2px solid black;
+  text-align: left;
 }
 
 /* recipes */
 
 .heading {
   border:  2px solid black;
-  margin: 32px;
+  margin-top: 32px;
 }
 
 .main-image {
@@ -46,25 +63,45 @@ a:visited {
 }
 
 .description-header {
-  border: 2p solid black;
+  border: 2px solid black;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 
 .description {
   border: 2px solid black;
+  margin: 16px 64px 16px 64px;
 }
 
 .ingredients-header {
   border: 2px solid black;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 
 .ingredients-list {
   border: 2px solid black;
+  margin: 16px 64px 16px 64px;
+  text-align: left;
 }
 
 .steps-header {
   border: 2px solid black;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 
 .steps {
+  border: 2px solid black;
+  margin: 16px 64px 16px 64px;
+  text-align: left;
+}
+
+.steps-list-item {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.list-item-paragraph {
   border: 2px solid black;
 }
