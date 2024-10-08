@@ -1,4 +1,16 @@
+*
+*::before
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
 body {
+  text-align: center;
   background-color: antiquewhite;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(65, 0, 0);
@@ -10,4 +22,8 @@ h1 {
 
 a {
   color: rgb(65, 0, 0);
+}
+
+a:visited {
+  color: rebeccapurple;
 }
