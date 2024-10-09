@@ -150,8 +150,29 @@ a:visited {
   margin-top: 16px;
 }
 
+.nut-heading {
+  border: 2px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.nut-span {
+  font-size: small;
+}
+
+.nut-container {
+  border: 2px solid black;
+  display: flex;
+}
+
+.nut-box1, .nut-box2,
+.nut-box3, .nut-box4 {
+  border: 2px solid black;
+  flex: 1;
+}
+
 .heading, .description-header, .description, .ingredients-header, .ingredients-list,
 .h3-titles, .h4-titles, .para, .steps-header, .steps, .more-steps-list-item, .main-header,
-.main-list-item, .recipe-list {
+.main-list-item, .recipe-list, .nut-heading {
   text-align: left;
 }
