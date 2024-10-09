@@ -22,7 +22,18 @@ h1 {
 }
 
 h3 {
+  text-align: left;
   font-size: 32px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+img {
+  border: 1px solid darkgoldenrod;
 }
 
 a {
@@ -36,116 +47,81 @@ a:visited {
 /*main page*/
 
 .main-header {
-  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
-}
-
-.recipe-list {
-  border: 2px solid black;
-}
-
-.main-list-item {
-  border: 2px solid black;
 }
 
 /* recipes */
 
 .heading {
-  border:  2px solid black;
   margin-top: 32px;
 }
 
 .heading-para {
-  border: 2px solid black;
   margin: 8px 0 16px 0;
 }
 
 .main-image {
-  border: 2px solid black;
-  margin: 32px;
+  margin: 32px 8px 32px 8px;
 }
 
 .box-container {
-  border: 2px solid black;
   display: flex;
 }
 
 .box1, .box2, .box3,
 .box4, .box5, .box6 {
-  border: 2px solid black;
   flex: 1;
+  margin-bottom: 16px;
+  border: 1px solid darkgoldenrod;
+  border-radius: 5px;
+  padding: 8px;
 }
 
 .description-header {
-  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
-}
-
-.description {
-  border: 2px solid black;
 }
 
 .ingredients-header {
-  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
-}
-
-.ingredients-list {
-  border: 2px solid black;
 }
 
 .steps-header {
-  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
-.steps {
-  border: 2px solid black;
-}
-
 .steps-list-item {
-  border: 2px solid black;
-  margin: 8px 0;
+  margin-top: 20px;
+  margin-bottom: 8px;
   font-weight: 700;
 }
 
 .list-item-paragraph {
-  border: 2px solid black;
   margin: 8px 0;
 }
 
 .more-steps-list-item {
-  border: 2px solid black;
   margin-top: 24px;
 }
 
 .serving-box {
-  border: 2px solid black;
   writing-mode: horizontal-tb;
 }
 
-.serving-box-elements {
-  border: 2px solid black;
-}
-
 .h3-titles {
-  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
 .h4-titles {
-  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
 .para {
-  border: 2px solid black;
   margin-bottom: 16px;
   margin-top: 16px;
 }
@@ -161,13 +137,11 @@ a:visited {
 }
 
 .nut-container {
-  border: 2px solid black;
   display: flex;
 }
 
 .nut-box1, .nut-box2,
 .nut-box3, .nut-box4 {
-  border: 2px solid black;
   flex: 1;
 }
 
