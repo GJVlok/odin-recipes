@@ -36,85 +36,116 @@ a:visited {
 /*main page*/
 
 .main-header {
+  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
 .recipe-list {
+  border: 2px solid black;
 }
 
 .main-list-item {
+  border: 2px solid black;
 }
 
 /* recipes */
 
 .heading {
+  border:  2px solid black;
   margin-top: 32px;
 }
 
+.heading-para {
+  border: 2px solid black;
+  margin: 8px 0 16px 0;
+}
+
 .main-image {
+  border: 2px solid black;
   margin: 32px;
 }
 
+.box-container {
+  border: 2px solid black;
+  display: flex;
+}
+
+.box1, .box2, .box3,
+.box4, .box5, .box6 {
+  border: 2px solid black;
+  flex: 1;
+}
+
 .description-header {
+  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
 .description {
-  margin: 0;
+  border: 2px solid black;
 }
 
 .ingredients-header {
+  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
 .ingredients-list {
-  margin: 16px 5px 16px 16px;
+  border: 2px solid black;
 }
 
 .steps-header {
+  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
 .steps {
-  margin: 16px 5px 16px 16px;
+  border: 2px solid black;
 }
 
 .steps-list-item {
-  margin: 16px 0;
+  border: 2px solid black;
+  margin: 8px 0;
   font-weight: 700;
 }
 
 .list-item-paragraph {
+  border: 2px solid black;
   margin: 8px 0;
 }
 
 .more-steps-list-item {
-  margin-top: 8px 0;
+  border: 2px solid black;
+  margin-top: 24px;
 }
 
 .serving-box {
+  border: 2px solid black;
   writing-mode: horizontal-tb;
 }
 
 .serving-box-elements {
-  border: none;
+  border: 2px solid black;
 }
 
 .h3-titles {
+  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
 .h4-titles {
+  border: 2px solid black;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
 .para {
+  border: 2px solid black;
   margin-bottom: 16px;
   margin-top: 16px;
 }
